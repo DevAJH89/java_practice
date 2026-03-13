@@ -1,0 +1,17 @@
+package com.kh.second;
+
+/*
+ *  외부 클래스의 메소드를 호출할 때는 메소드가 존재하는 클래스를 생성해 줘야함
+ *  [표현법]
+ *  "클래스이름" "클래스의 별칭" = new "클래스이름"();
+ */
+
+public class Run {
+	public static void main(String[] args) {
+		
+		PrintController pc = new PrintController();
+		
+		pc.printMyName();
+	}
+	
+}

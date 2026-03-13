@@ -1,0 +1,25 @@
+package com.kh.first; 
+// 패키지 선언부 : 현재 클래스의 위치가 어디인가
+/*
+ * 클래스를 용도에 맞게 패키지에 보관하는 것을 권장(무조건 해라~!)
+ * 패키지 선언부로 클래스 이름이 달라도 구분한다
+ * 
+ * 적어도 세단계 이상으로 만들어주는것을 권장함
+ * ex) com.kh.first
+ * 
+ * com.(회사이름).(프로젝트이름/팀이름/카테고리이름/도메인이름)
+ */
+
+public class HelloWorld {
+	/*  {}를 Scope / Block 이라고 함
+	 *  main method : 프로그램의 시작점(entry Point), 프로그램당 최소 한개는 있어야 한다
+	 *  public static 은 고정
+	 *  
+	 */
+	
+	//함수영역
+	public static void main(String[] args) {
+		//메소드 호출을 해야한다
+		
+	}
+}

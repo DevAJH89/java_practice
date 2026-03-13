@@ -1,0 +1,12 @@
+package com.kh.run;
+
+import com.kh.variable.Variable; // import 다른 패키지에 있는 소스코드를 사용하고 싶을때 사용
+
+public class Run {
+	public static void main(String[] args) {
+		Variable v = new Variable();
+		{
+			
+		}
+	}
+}
